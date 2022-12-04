@@ -1,7 +1,14 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
-
-![Image of fast.ai logo](images/logo.png)
-
-## This is a title
-
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
+---
+#
+# By default, content added below the "---" mark will appear in the home page
+# between the top bar and the list of recent posts.
+# To change the home page layout, edit the _layouts/home.html file.
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
+layout: default #home
+---
+# The World Is Under Construction
+```
+To Be Released Soon...
+```
+![Composite image of the world showing NVDI, City Lights At Night, Elevation, and Bathymetry from NASA Blue Marble Dataset]({{site.url}}assets/images/UnderConstruction/NDVIWORLD.jpg "Composite image of the world showing NVDI, City Lights At Night, Elevation, and Bathymetry from NASA Blue Marble Dataset")
